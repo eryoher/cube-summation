@@ -49,3 +49,19 @@ configuration relevant for your application.
 The app skeleton uses a subset of [Foundation](http://foundation.zurb.com/) CSS
 framework by default. You can, however, replace it with any other library or
 custom styles.
+
+## Project
+You are given a 3-D Matrix in which each block contains 0 initially. The first block is defined by the coordinate (1,1,1) and the last block is defined by the coordinate (N,N,N). There are two types of queries.
+
+UPDATE x y z W
+updates the value of block (x,y,z) to W.
+
+QUERY x1 y1 z1 x2 y2 z2
+calculates the sum of the value of blocks whose x coordinate is between x1 and x2 (inclusive), y coordinate between y1 and y2 (inclusive) and z coordinate between z1 and z2 (inclusive).
+
+Input Format
+The first line contains an integer T, the number of test-cases. T testcases follow.
+For each test case, the first line will contain two integers N and M separated by a single space.
+N defines the N * N * N matrix.
+M defines the number of operations.
+The next M lines will contain either

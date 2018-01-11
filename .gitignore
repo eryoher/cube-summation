@@ -2,6 +2,7 @@
 ##########################
 /config/app.php
 /config/.env
+.composer.lock
 /tmp/*
 /logs/*
 /tmp/*
